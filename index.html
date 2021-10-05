@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>CURD SYSTEM</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <label class="my-3">Product Name</label>
+                <input class="form-control" type="text" id="productName">
+                <small class="text-muted">Please the first charcter should be captial</small>
+            </div>
+            <div class="col-md-12">
+                <label class="my-3">Product price</label>
+                <input class="form-control" type="text" id="productPrice">
+                <small class="text-muted">Please the price should be more than 500</small>
+            </div>
+            <div class="col-md-12">
+                <label class="my-3">Product category</label>
+                <select class="form-select" aria-label="Default select example" id="productCategory">
+                    <option selected>Open this select menu</option>
+                    <option value="Computers">Computers</option>
+                    <option value="Mobiles">Mobiles </option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Smart Home">Smart Home</option>
+                    <option value="Software">Software</option>
+                    <option value="Automotive">Automotive</option>
+                    <option value="Men's Fashion">Men's Fashion</option>
+                </select>
+            </div>
+            <div class="col-md-12">
+                <label class="my-3">description</label>
+                <textarea class="form-control" type="text" id="productDescrption"></textarea>
+                <small class="text-muted">Please the first charcter should be captial</small>
+            </div>
+        </div>
+        <button class="btn-secondary my-3" id="button">supmit</button>
+    </div>
+    <div class="w-75 mx-auto">
+        <label>search by productName</label>
+        <input class="form-control " type="text">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="py-3 my-auto  w-100 text-center">
+                    <thead>
+                        <th>index</th>
+                        <th>Name</th>
+                        <th>price</th>
+                        <th>category</th>
+                        <th>Description</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                    </thead>
+                    <tbody id="tbody">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

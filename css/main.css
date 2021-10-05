@@ -1,0 +1,33 @@
+
+.container{
+    margin-top:50px;
+}
+textarea{
+    resize: none;
+}
+td{
+    padding:15px;
+    border-bottom: 2px solid black;
+    font-size: 14px;
+}
+th{
+    font-size: 14px;
+}
+/*input{
+    background-color: #24353f !important;
+    color: white !important;
+}
+textarea{
+    background-color: #24353f !important;
+    color: white !important;
+}
+select{
+    background-color: #24353f !important;
+    color: white !important;
+}
+*/
+@media all and (max-width:568px){
+    table{
+        width:0% !important;
+    }
+}
